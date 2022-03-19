@@ -10,7 +10,7 @@ const Navbar = () => {
       <Flex alignItems="center" justifyContent="space-between">
         <Container width="100%" display="flex" justifyContent="space-between">
           <Flex alignItems="center">
-            <Text fontWeight={7} fontSize={"larger"} color="darkViolet">
+            <Text fontWeight={7} fontSize={"larger"} color="black">
               Shortly
             </Text>
             <Container
@@ -18,9 +18,9 @@ const Navbar = () => {
               color={"gray"}
               fontSize={"title"}
             >
-              <Link>Features</Link>
-              <Link>Pricing</Link>
-              <Link>Resources</Link>
+              <Link color={"gray"}>Features</Link>
+              <Link color={"gray"}>Pricing</Link>
+              <Link color={"gray"}>Resources</Link>
             </Container>
           </Flex>
           <Flex display={{ xs: "none", sm: "flex" }} alignItems="center">
